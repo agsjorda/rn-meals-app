@@ -3,7 +3,7 @@ import React from "react";
 
 const List = ({ data }) => {
   return data.map((dataPoint) => (
-    <View key={dataPoint} style={styles.listItemlistItem}>
+    <View key={dataPoint} style={styles.listItem}>
       <Text style={styles.itemText}>{dataPoint}</Text>
     </View>
   ));
