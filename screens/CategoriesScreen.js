@@ -4,6 +4,7 @@ import { CATEGORIES } from "../data/data";
 
 const CategoriesScreen = ({ navigation }) => {
   function renderCategoryItem(itemData) {
+    // console.log(itemData);
     function pressHandler() {
       navigation.navigate("MealsOverview", {
         categoryId: itemData.item.id,
